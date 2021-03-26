@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5CT4Q2gdE1qlXyzfmyeAAAMHiP2wyzrIoyKZ8cq5+ahYPspNjX1+3Hm1qTNLLXwv6NpAXt3HnQpJVazCwvALfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sferis\\source\\repos\\Randomem\\Randomem\\Randomem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sferis\\.nuget\\packages\\htmlagilitypack\\1.11.32\\htmlagilitypack.1.11.32.nupkg.sha512"
+  ],
+  "logs": []
+}

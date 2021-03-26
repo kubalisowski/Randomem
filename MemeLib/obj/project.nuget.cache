@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWLakCX2270k0o25voI5xh+XPFhgX4wLlOtDeiDtQUdQPvXF4wKInQx9djG8NEWIFfIDiXYj1rUlQLQOYStHWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sferis\\source\\repos\\Randomem\\MemeLib\\MemeLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sferis\\.nuget\\packages\\htmlagilitypack\\1.11.32\\htmlagilitypack.1.11.32.nupkg.sha512",
+    "C:\\Users\\Sferis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sferis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

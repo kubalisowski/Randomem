@@ -1,0 +1,9 @@
+C:\Users\Sferis\source\repos\Randomem\MemeLib\bin\Debug\netstandard2.0\MemeLib.deps.json
+C:\Users\Sferis\source\repos\Randomem\MemeLib\bin\Debug\netstandard2.0\MemeLib.dll
+C:\Users\Sferis\source\repos\Randomem\MemeLib\bin\Debug\netstandard2.0\MemeLib.pdb
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.csprojAssemblyReference.cache
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.AssemblyInfoInputs.cache
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.AssemblyInfo.cs
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.csproj.CoreCompileInputs.cache
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.dll
+C:\Users\Sferis\source\repos\Randomem\MemeLib\obj\Debug\netstandard2.0\MemeLib.pdb
