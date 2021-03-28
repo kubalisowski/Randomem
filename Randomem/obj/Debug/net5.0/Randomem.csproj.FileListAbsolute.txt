@@ -1,6 +1,5 @@
 C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\appsettings.json
-C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\Randomem.StaticWebAssets.xml
 C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\Randomem.exe
 C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\Randomem.deps.json
 C:\Users\Sferis\source\repos\Randomem\Randomem\bin\Debug\net5.0\Randomem.runtimeconfig.json
@@ -21,7 +20,6 @@ C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.csproj.
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorComponent.input.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\Pages\Meme.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -31,7 +29,6 @@ C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.TagHelp
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.TagHelpers.output.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorCoreGenerate.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\Pages\Meme.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
@@ -41,10 +38,7 @@ C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorAs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorAssemblyInfo.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\staticwebassets\Randomem.StaticWebAssets.Manifest.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\staticwebassets\Randomem.StaticWebAssets.xml
-C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\scopedcss\bundle\Randomem.styles.css
-C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\scopedcss\projectbundle\Randomem.bundle.scp.css
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorTargetAssemblyInfo.cache
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.RazorTargetAssemblyInfo.cs
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.Views.pdb
@@ -53,3 +47,7 @@ C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.dll
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\ref\Randomem.dll
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.pdb
 C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Randomem.genruntimeconfig.cache
+C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\Shared\Footer.razor.g.cs
+C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\Shared\Footer.razor.g.cs
+C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\RazorDeclaration\Pages\Page.razor.g.cs
+C:\Users\Sferis\source\repos\Randomem\Randomem\obj\Debug\net5.0\Razor\Pages\Page.razor.g.cs

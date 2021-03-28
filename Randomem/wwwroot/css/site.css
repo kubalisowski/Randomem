@@ -1,50 +1,85 @@
-@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 
-html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
 }
 
-a, .btn-link {
-    color: #0366d6;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-.content {
-    padding-top: 1.1rem;
-}
-
-.valid.modified:not([type=checkbox]) {
-    outline: 1px solid #26b050;
-}
-
-.invalid {
-    outline: 1px solid red;
-}
-
-.validation-message {
-    color: red;
-}
-
-#blazor-error-ui {
-    background: lightyellow;
-    bottom: 0;
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
-    display: none;
-    left: 0;
-    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
-    position: fixed;
+.navmenu {
     width: 100%;
-    z-index: 1000;
+    background-color: black;
+    color: white;
 }
 
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
+.navContent {
+    display: flex;
+    justify-content: center;
+}
+
+.randomem {
+    font-size: 45px;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.slogan {
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 30px;
+    margin-left: 2vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+
+.ad {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 2vh 2vw;
+}
+
+.adv {
+    width: inherit;
+    height: inherit;
+}
+
+.panel {
+}
+
+.meme {
+}
+
+.draw {
+    margin-left: 20px;
+    position: sticky;
+    top: 2vh;
+}
+
+.fas {
+    width: 100px;
+    width: 100px;
+    color: white;
+}
+
+    .fas:hover {
+        color: darkviolet;
     }
+
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8px;
+    word-wrap: break-word;
+}

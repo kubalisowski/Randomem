@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Randomem.Pages
 {
-    public class MemeBase : ComponentBase
+    public class PageBase : ComponentBase
     {
         public string memeUrl;
         private void GetUrl()

@@ -16,7 +16,7 @@ namespace MemeLib
         private static KeyValuePair<string, string> DrawPage()
         {
             var random = new Random();
-            // Return random mem url
+            // Return random page details
             return Pages.ElementAt(random.Next(Pages.Count));
         }
 
