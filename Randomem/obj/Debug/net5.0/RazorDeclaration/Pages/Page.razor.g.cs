@@ -91,7 +91,7 @@ using Randomem.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\Users\Sferis\source\repos\Randomem\Randomem\Pages\Page.razor"
+#line 30 "C:\Users\Sferis\source\repos\Randomem\Randomem\Pages\Page.razor"
     private void ReloadComponent()
     {
         NavigationManager.NavigateTo("/", true);
