@@ -9,8 +9,8 @@ namespace Randomem.Pages
 {
     public class PageBase : ComponentBase
     {
-        public string memeUrl;
-        private void GetUrl()
+        public string memeUrl { get; set; }
+        public void GetUrl()
         {
             memeUrl = MemeUrl.DrawUrl();
         }

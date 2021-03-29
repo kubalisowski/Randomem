@@ -31,9 +31,9 @@ namespace MemeLib
                 string memeUrl = page.DocumentNode.SelectSingleNode(drawedPage.Value).Attributes["src"].Value;
                 return memeUrl;
             }
-            catch (Exception e)
+            catch
             {
-                return e.Message;
+                return "error";
             }
         }
 

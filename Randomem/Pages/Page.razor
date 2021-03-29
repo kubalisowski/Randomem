@@ -3,23 +3,31 @@
 
 <div class="page">
     <div class="meme">
-        <img src=@memeUrl />
-        @*<img src="https://i.imgflip.com/35k49j.jpg" />*@
+        @if (memeUrl == "error")
+        {
+            ReloadComponent();
+        }
+        else
+        {
+            <img src=@memeUrl />
+        }
+
     </div>
     <div class="panel">
         <div class="ad">
-            <img src="https://ocdn.eu/pulscms-transforms/1/AfPk9kqTURBXy9lMjQ0MGE2NzRkZjdkMjNjMTE1MmY2OTE1OGYzYmVhZC5qcGVnkZMCzQNIAIKhMAWhMQE" class="adv" />
+            @*<img src="https://ocdn.eu/pulscms-transforms/1/AfPk9kqTURBXy9lMjQ0MGE2NzRkZjdkMjNjMTE1MmY2OTE1OGYzYmVhZC5qcGVnkZMCzQNIAIKhMAWhMQE" class="adv" />*@
         </div>
 
         <div class="draw">
-            <a href="#">
-                <i class="fas fa-dice fa-10x"></i>
-            </a>
+                <i class="fas fa-dice fa-10x" @onclick="GetUrl"></i>
         </div>
     </div>
 </div>
 
-@*<div class="meme">
-    <img src=@memeUrl />
-</div>*@
-
+@code{ 
+    @inject NavigationManager NavigationManager;
+    private void ReloadComponent()
+    {
+        NavigationManager.NavigateTo("/", true);
+    }
+}

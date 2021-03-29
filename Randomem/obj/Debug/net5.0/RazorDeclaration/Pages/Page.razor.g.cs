@@ -90,6 +90,17 @@ using Randomem.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 29 "C:\Users\Sferis\source\repos\Randomem\Randomem\Pages\Page.razor"
+    private void ReloadComponent()
+    {
+        NavigationManager.NavigateTo("/", true);
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591
