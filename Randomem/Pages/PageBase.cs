@@ -14,25 +14,29 @@ namespace Randomem.Pages
 
         public void GetUrl()
         {
-            if (memeQueue.Count > 1)
-            {
-                memeUrl = memeQueue.Dequeue();
-            }
-            else if (memeQueue.Count == 1)
-            {
-                memeQueue.Enqueue(MemeUrl.DrawUrl());
-                memeUrl = memeQueue.Dequeue();
-            }
-            else
-            {
-                GetMemes();
-                memeUrl = memeQueue.Dequeue();
-            }
+            memeUrl = memeQueue.Dequeue();
         }
+        //public void GetUrl()
+        //{
+        //    if (memeQueue.Count > 1)
+        //    {
+        //        memeUrl = memeQueue.Dequeue();
+        //    }
+        //    else if (memeQueue.Count == 1)
+        //    {
+        //        memeQueue.Enqueue(MemeUrl.DrawUrl());
+        //        memeUrl = memeQueue.Dequeue();
+        //    }
+        //    else
+        //    {
+        //        GetMemes();
+        //        memeUrl = memeQueue.Dequeue();
+        //    }
+        //}
 
         public void GetMemes()
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 2; i++)
             {
                 memeQueue.Enqueue(MemeUrl.DrawUrl());
             }
@@ -40,7 +44,8 @@ namespace Randomem.Pages
         
         protected override Task OnInitializedAsync()
         {
-            GetUrl();
+            memeUrl = MemeUrl.DrawUrl();
+            GetMemes();
             return base.OnInitializedAsync();
         }
 

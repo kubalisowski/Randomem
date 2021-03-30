@@ -1,4 +1,4 @@
-﻿@page "/" 
+﻿@page "/"
 @inherits PageBase
 
 <div class="page">
@@ -16,16 +16,22 @@
     </div>
     <div class="panel">
         <div class="ad">
-            @*<img src="https://ocdn.eu/pulscms-transforms/1/AfPk9kqTURBXy9lMjQ0MGE2NzRkZjdkMjNjMTE1MmY2OTE1OGYzYmVhZC5qcGVnkZMCzQNIAIKhMAWhMQE" class="adv" />*@
         </div>
 
         <div class="draw">
-                <i class="fas fa-dice fa-10x" @onclick="GetUrl"></i>
+            <i class="fas fa-dice fa-10x" @onclick="GetUrl"></i>
         </div>
     </div>
 </div>
 
-@code{ 
+@{
+    while (memeQueue.Count < 2)
+    {
+        memeQueue.Enqueue(MemeLib.MemeUrl.DrawUrl());
+    }
+}
+
+@code{
     @inject NavigationManager NavigationManager;
     private void ReloadComponent()
     {
